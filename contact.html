@@ -42,22 +42,51 @@
   <main class="container" class="border border-secondary">
     <content class="card p-2">
       <h2>Contact Me</h2>
-      <form>
+      <form action="https://formspree.io/meqlyjrv" method="POST">
         <div class="form-group">
           <label for="exampleFormControlInput1">Name:</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
+          <input type="name" name="name" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
         </div>
         <div class="form-group">
           <label for="exampleFormControlInput1">Email address:</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          <input type="email" name="_replyto" class="form-control" id="exampleFormControlInput1"
+            placeholder="name@example.com">
         </div>
         <div class="form-group">
           <label for="exampleFormControlTextarea1">Message:</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
         <input type="submit" value="Submit" id="submitButton">
       </form>
     </content>
+  </main>
+
+  <main class="container" class="border border-secondary" id="directContact">
+    <div class ="row">
+    <div class = "col-sm">
+      <content class="card p-2 col-sm">
+        <h2>Direct Contact</h2>
+        <div>
+          Phone: 801-125-1220
+          <br>
+          Email: Andrew.Kessler95@gmail.com
+        </div>
+      </content>
+    </div>
+    <div class = "col-sm">
+      <content class="card p-2 col-sm">
+        <h2>Social</h2>
+        <div>
+     
+          <a href="https://github.com/Akessler314" target="_blank">Find me on Github</a> 
+          <br>
+        
+          <a href="https://www.linkedin.com/in/andrew-kessler-480918165" target="_blank">Find me on LinkedIn</a>
+        </div>
+      </content>
+    </div>
+  </div>
+
   </main>
 
   <footer class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark">

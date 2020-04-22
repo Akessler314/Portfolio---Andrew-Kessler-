@@ -13,7 +13,7 @@ body {
 main {
 margin: 15px;
 padding:10px;
-padding-bottom: 14.75%
+/* padding-bottom: 14.75% */
 }
 .col-sm-3 {
     margin: 15px;
@@ -29,4 +29,9 @@ border-width: 3.5px;
 }
 .center{
     text-align: center;
+}
+
+#directContact {
+    padding-bottom: 14.75%
+
 }
