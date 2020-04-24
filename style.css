@@ -21,11 +21,15 @@ padding:10px;
 h2 {
     color: rgb(0, 95, 133);
     text-decoration: underline;
-    padding: 10px
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 .card {
 border-color: rgb(0, 95, 133);
 border-width: 3.5px;
+box-shadow: 5px 10px 18px #888888;
 }
 .center{
     text-align: center;
@@ -33,5 +37,22 @@ border-width: 3.5px;
 
 #directContact {
     padding-bottom: 14.75%
+
+}
+.about {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.aboutPic {
+    border-color: rgb(0, 95, 133);
+    border-width: 3.5px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+#aboutTxt {
+margin-left: 20px;
+
 
 }
