@@ -1,0 +1,124 @@
+.name {
+    font-family: 'Permanent Marker', cursive;
+    padding: 10px;
+    background-color: rgb(0, 95, 133);
+    font-size: 24px;
+    color: whitesmoke;
+    }
+body {
+    background-color: lightgrey;
+    font-size: 18px;
+    
+}
+main {
+margin: 15px;
+padding:10px;
+/* padding-bottom: 14.75% */
+}
+.col-sm-3 {
+    margin: 15px;
+}
+h2 {
+    color: black(0, 95, 133);
+    text-decoration: underline;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bolder;
+    
+}
+.card {
+border-color: rgb(0, 95, 133);
+border-width: 3.5px;
+box-shadow: 5px 10px 18px #888888;
+}
+.center{
+    text-align: center;
+}
+
+#directContact {
+    padding-bottom: 14.75%
+
+}
+.about {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.aboutPic {
+    border-color: rgb(0, 95, 133);
+    border-width: 3.5px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+#aboutTxt {
+margin-left: 20px;
+
+
+}
+
+a{ 
+font-weight: bold;
+}
+
+i { 
+color: rgb(0, 95, 133);;
+
+}
+.social { 
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.directContact {
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+#aboutCard {
+    background-image: url("mtnopac.png");
+    background-size: cover;
+    font-weight: bolder;
+}
+
+
+#experienceCard { 
+    background-image: url("building.png");
+    background-size: cover;
+    margin-bottom: 14.5%;
+    font-weight: bolder;
+  
+}
+
+#pfCard1 {
+background-image: url("portBR2.png");
+background-size: cover;
+font-weight: bolder;
+color: white;
+
+}
+
+#projects { 
+justify-content: center;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+#portfolioCard { 
+    background-image: url("portfolio_lrg.png");
+    background-size: cover;
+}
+
+#allProjThumb { 
+margin: 5px;
+}
+
+#weatherThumb {
+background-color: slategray;
+
+}
