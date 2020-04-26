@@ -112,6 +112,7 @@ margin-right: auto;
 #portfolioCard { 
     background-image: url("portfolio_lrg.png");
     background-size: cover;
+    margin-bottom: 14.5%;
 }
 
 #allProjThumb { 
